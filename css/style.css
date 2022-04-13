@@ -151,7 +151,7 @@ a, li{
 /* ----X----- GLOBAL ----X----- */
 
 /* ---------- HEADER ---------- */
-.header{
+#header{
     background-color: #0D0D0D;
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +173,6 @@ a, li{
     border-radius: 8px 8px 0px 0px;
     color: #0d0d0d;
 }
-
 /* -----X---- HEADER -----X---- */
 
 /* ---------- MAIN ---------- */
@@ -189,7 +188,7 @@ a, li{
 /* -----X---- MAIN -----X---- */
 
 /* ---------- ABOUT US ---------- */
-.about-us{
+#about-us{
     background-image: linear-gradient(to bottom, #D96D55, #df7e68);
 }
 
@@ -201,7 +200,7 @@ a, li{
 /* -----X---- ABOUT US -----X---- */
 
 /* ---------- SERVICES ---------- */
-.services{
+#services{
     background-image: linear-gradient(to bottom, #df7e68, #D99379);
 }
 /* -----X---- SERVICES -----X---- */
@@ -217,7 +216,7 @@ a, li{
 /* -----X---- HOW WE DO THAT -----X---- */
 
 /* ---------- CONTACT ---------- */
-.contact{
+#contact{
     background-image: linear-gradient(to bottom, #F2BF27, #D98723);
 }
 
