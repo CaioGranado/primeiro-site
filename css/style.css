@@ -155,7 +155,7 @@ a, li{
     background-color: #0D0D0D;
     display: flex;
     flex-wrap: wrap;
-    padding: 35px 0px 10px;
+    padding: 35px 0px 8px;
     justify-content: center;
 }
 
@@ -164,7 +164,7 @@ a, li{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
     font: bolder 1.3em 'Ink Free', Helvetica, sans-serif;
-    padding: 10px;
+    padding: 8px 20px;
 }
 
 .header-nav-link:hover{
@@ -271,7 +271,7 @@ a, li{
     /* ---------- TITLE ---------- */
     .main-title{
         font: bolder 2em 'Ink Free';
-        padding: 30px 0px 30px ;
+        padding: 30px 0px 10px ;
     }
 
     .container-title{
@@ -282,7 +282,7 @@ a, li{
 
     /* ---------- TEXT ---------- */
     .main-text{
-        font: bold 1em Arial;
+        font: bold .9em Arial;
     }
 
     .container-text{
@@ -347,13 +347,14 @@ a, li{
     /* ----X----- GLOBAL ----X----- */
     
     /* ---------- HEADER ---------- */
-    .header{
+    #header{
         padding: 25px 0px 5px;
     }
     
     .header-nav-link{
-        font: bolder 1em 'Ink Free', Helvetica, sans-serif;
-        padding: 5px 10px;
+        font: bolder .8em 'Ink Free', Helvetica, sans-serif;
+        padding: 5px 8px;
+        margin-left: 5px;
         background-color: #f2bf27;
         border-radius: 8px 8px 0px 0px;
         color: #0d0d0d;
@@ -362,13 +363,33 @@ a, li{
 
     /* ---------- ABOUT US ---------- */
     .about-us-image{
-        margin: 50px auto 30px;
+        margin: 25px auto 100px;
         width: 15em;
         transform: translateY(0%);
     }
     /* -----X---- ABOUT US -----X---- */
-   
+
+    /* ---------- HOW WE DO THAT ---------- */
+    .how-we-do-that{
+        padding-top: 75px;
+    }
+    /* ----X----- HOW WE DO THAT -----X---- */
+
+    /* ---------- HOW MUCH ---------- */
+        #how-much > h2{
+            padding: 30px 20px 25px;
+        }
+    /* ----X----- HOW MUCH -----X---- */
+
     /* ---------- CONTACT ---------- */
+    #contact{
+        padding-top: 75px;
+    }
+
+    #contact > h1{
+        padding: 30px 20px 25px;
+    }
+    
     .container-contacts > .box-size{
         height: 500px;
         width: 350px;
@@ -387,6 +408,11 @@ a, li{
         margin: auto;
     }
     /* -----X---- CONTACT -----X---- */
-}
-   
+
+    /* ---------- FOOTER ---------- */
+    .footer p{
+        text-align: center;
+    }
+    /* ----X----- FOOTER -----X---- */
+} 
 /* ----X----- RESPONSIVENESS ----X----- */
